@@ -10,7 +10,7 @@
 			}
 		],
 		"license": "MIT",
-		"require": {"monolog/monolog": "1.0.*"},
+		"require": {"nguyenlam0305/backend": "*"},
 		"autoload": {
 			"psr-4": {
 				"khanhu26\\backend2\\": "/"
