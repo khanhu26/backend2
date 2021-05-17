@@ -1,0 +1,21 @@
+php artisan migrate:rollback
+
+php artisan migrate
+
+php artisan make:migration create_companies_table
+
+$table->string('company_name',55);
+$table->string('company_web',255);
+$table->string('company_address',500);
+$table->string('company_code',55);
+$table->string('company_phone',55);
+
+php artisan make:migration create_trainers_table
+
+php artisan make:seeder companiesSeeder
+
+php artisan db:seed --class=companiesSeeder
+
+php artisan make:seeder trainersSeeder
+
+php artisan db:seed --class=trainersSeeder
